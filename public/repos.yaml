@@ -1,0 +1,129 @@
+pinned:
+  - id: torvalds/linux
+  - id: microsoft/vscode
+  - id: facebook/react
+  - id: vuejs/vue
+  - id: tensorflow/tensorflow
+
+categories:
+  - name: AI / Machine Learning
+    slug: ai-ml
+    repos:
+      - id: huggingface/transformers
+        desc: State-of-the-art ML for PyTorch, TensorFlow, JAX
+        tags: [python, nlp, deep-learning]
+      - id: tensorflow/tensorflow
+        desc: Open Source Machine Learning Framework
+        tags: [python, ml, google]
+      - id: pytorch/pytorch
+        desc: Tensors and dynamic neural networks in Python
+        tags: [python, deep-learning, gpu]
+      - id: openai/openai-python
+        desc: OpenAI Python API library
+        tags: [python, api, openai]
+      - id: langchain-ai/langchain
+        desc: Build context-aware reasoning applications
+        tags: [python, llm, agents]
+      - id: ollama/ollama
+        desc: Get up and running with large language models locally
+        tags: [go, llm, local]
+      - id: ggerganov/llama.cpp
+        desc: LLM inference in C/C++
+        tags: [cpp, llm, inference]
+      - id: comfyanonymous/ComfyUI
+        desc: A powerful and modular stable diffusion GUI
+        tags: [python, stable-diffusion, ui]
+
+  - name: Frontend
+    slug: frontend
+    repos:
+      - id: facebook/react
+        desc: The library for web and native user interfaces
+        tags: [javascript, ui, meta]
+      - id: vuejs/vue
+        desc: Progressive JavaScript Framework
+        tags: [javascript, typescript, framework]
+      - id: angular/angular
+        desc: Deliver web apps with confidence
+        tags: [typescript, framework, google]
+      - id: sveltejs/svelte
+        desc: Cybernetically enhanced web apps
+        tags: [javascript, compiler, framework]
+      - id: vitejs/vite
+        desc: Next generation frontend tooling
+        tags: [typescript, bundler, dev-tools]
+      - id: tailwindlabs/tailwindcss
+        desc: A utility-first CSS framework
+        tags: [css, framework, utility]
+      - id: shadcn-ui/ui
+        desc: Beautifully designed components built with Radix and Tailwind
+        tags: [typescript, components, react]
+
+  - name: Backend / DevOps
+    slug: backend
+    repos:
+      - id: torvalds/linux
+        desc: Linux kernel source tree
+        tags: [c, kernel, os]
+      - id: microsoft/vscode
+        desc: Visual Studio Code — open source code editor
+        tags: [typescript, editor, microsoft]
+      - id: kubernetes/kubernetes
+        desc: Production-Grade Container Scheduling and Management
+        tags: [go, containers, cloud]
+      - id: docker/compose
+        desc: Define and run multi-container applications with Docker
+        tags: [go, docker, containers]
+      - id: golang/go
+        desc: The Go programming language
+        tags: [go, language, google]
+      - id: rust-lang/rust
+        desc: A language empowering everyone to build reliable software
+        tags: [rust, language, systems]
+      - id: denoland/deno
+        desc: A modern runtime for JavaScript and TypeScript
+        tags: [rust, typescript, runtime]
+      - id: grafana/grafana
+        desc: The open and composable observability and data visualization platform
+        tags: [go, typescript, monitoring]
+
+  - name: Tools & Utilities
+    slug: tools
+    repos:
+      - id: git/git
+        desc: Git Source Code Mirror
+        tags: [c, vcs, core]
+      - id: neovim/neovim
+        desc: Vim-fork focused on extensibility and usability
+        tags: [c, editor, vim]
+      - id: tmux/tmux
+        desc: A terminal multiplexer
+        tags: [c, terminal, cli]
+      - id: sharkdp/bat
+        desc: A cat clone with wings
+        tags: [rust, cli, terminal]
+      - id: BurntSushi/ripgrep
+        desc: Recursively search directories for a regex pattern
+        tags: [rust, cli, search]
+      - id: junegunn/fzf
+        desc: A command-line fuzzy finder
+        tags: [go, cli, fuzzy]
+      - id: jesseduffield/lazygit
+        desc: Simple terminal UI for git commands
+        tags: [go, git, tui]
+
+  - name: Security
+    slug: security
+    repos:
+      - id: Hack-with-Github/Awesome-Hacking
+        desc: A collection of awesome lists for hackers
+        tags: [awesome, hacking, resources]
+      - id: swisskyrepo/PayloadsAllTheThings
+        desc: A list of useful payloads and bypasses for Web Application Security
+        tags: [python, pentest, web]
+      - id: projectdiscovery/nuclei
+        desc: Fast and customizable vulnerability scanner
+        tags: [go, scanner, pentest]
+      - id: aquasecurity/trivy
+        desc: Find vulnerabilities, misconfigurations, secrets in containers
+        tags: [go, security, containers]
