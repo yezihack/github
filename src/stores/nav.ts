@@ -65,7 +65,7 @@ export const useNavStore = defineStore('nav', () => {
     loading.value = true
     error.value = null
     try {
-      const res = await fetch('/repos.yaml')
+      const res = await fetch(`${import.meta.env.BASE_URL}repos.yaml`)
       const text = await res.text()
       const parsed = jsyaml.load(text) as NavConfig
       config.value = parsed
